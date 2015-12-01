@@ -9,7 +9,7 @@
     "schemes": [
         "http"
     ],
-    "basePath": "/api",
+    "basePath": "/api/v1",
     "produces": [
         "application/json"
     ],
@@ -3320,7 +3320,7 @@
       "oauth2": {
           "type": "oauth2",
           "flow": "implicit",
-          "authorizationUrl": "http://dev.thehuxley.com:8080/api/oauth/authorize",
+          "authorizationUrl": "http://dev.thehuxley.com/api/oauth/authorize",
           "scopes": {
               "read": "allow read",
               "write": "allow write"
